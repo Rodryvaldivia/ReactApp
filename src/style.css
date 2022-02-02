@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.header-user {
+    height: 55px;
+    width: 55px;
+    background-color: #a0d7e7;
+    border-radius: 50%;
+}
+
+.user-img {
+    width: 100%;
+}
+
+.header-p {
+    color: #111111;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.search {
+    text-align: center;
+    margin-top: 5%;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+.search > i {
+    color: #00000030;
+    position: absolute;
+    right: 12%;
+}
+
+.search-input {
+    width: 85%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 7px 8px #00000014;
+}
+.search-input:focus {
+    outline: none;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.small-box {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.small-box button {
+    border: none;
+}
+
+.tasks, .notes, .calendar {
+    width: 100px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.tasks {
+    background-color: #6fcf9758;
+    display: flex;
+    align-items: center;
+}
+.circle-task {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #6fcf97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f2f2f2
+}
+.notes {
+    background-color: #f5a3bd58;
+    display: flex;
+    align-items: center;
+}
+.circle-notes {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #f5a3bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f2f2f2
+}
+.calendar {
+    background-color: #3f8cff58;
+    display: flex;
+    align-items: center;
+}
+.calendar h4 {
+    font-size: 10px;
+    margin-left: 8px;
+    color: #111111;
+}
+.notes h4{
+    font-size: 10px;
+    margin-left: 8px;
+    color: #111111;
+}
+
+.tasks h4 {
+    font-size: 10px;
+    margin-left: 8px;
+    color: #111111;
+}
+
+
+.circle-calendar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #3f8cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f2f2f2
+}
+
+.addtask-container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: flex-end;
+}
+
+.addtask-container button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin-right: 8%;
+    color: #00000030;
+}
+
+.big-box-task {
+    display: flex;
+    justify-content: center;
+}
+
+.TaskModel {
+    width: 85%;
+    height: 100px;
+    background-color: #3f8cff;
+    border-radius: 20px;
+    box-shadow: 0px 7px 8px #00000030;
+    margin-top: 5%;
+    display: flex;
+}
+
+
+
+.infotask {
+    width: 80%;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.infotask > h4 {
+    color: #f2f2f2;
+    font-size: 15px;
+}
+.infotask > p {
+    color: #f2f2f2;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    width: 22px;
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
